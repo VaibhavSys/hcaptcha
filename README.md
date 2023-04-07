@@ -31,7 +31,7 @@ except HCaptchaVerificationError as e:
 Documentation for hcaptcha is available [here](https://github.com/VaibhavSys/hcaptcha/blob/master/docs/sources/api/hcaptcha.md)
 
 ## Contributing
-If you find a bug or have a feature request, please open an issue on [GitHub](https://github.com/VaibhavSys).
+If you find a bug or have a feature request, please open an issue on [GitHub](https://github.com/VaibhavSys/hcaptcha).
 
 ## Licence
 hcaptcha is distributed under the MIT License. See LICENSE for more information.
