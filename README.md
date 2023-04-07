@@ -13,13 +13,15 @@ To use hcaptcha, you'll need an hcaptcha secret key for your site. You can get o
 
 ```python
 from hcaptcha.hcaptcha import HCaptchaVerifier, HCaptchaVerificationError
+import asyncio
 
 # Initialize the verifier with your hcaptcha secret key
 verifier = HCaptchaVerifier(your_hcaptcha_secret_key)
 
 # Verify an hcaptcha response
+# You can use await instead of asyncio.run if you are in a async function
 try:
-    is_valid = await verifier.verify(user_response_token)
+    is_valid = asyncio.run(verifier.verify(user_response_token))
     if is_valid:
         print("Captcha verified successfully.")
     else:
