@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "hcaptcha"
-version = "0.1.1"
+version = "0.1.2"
 description = "A Python package for integrating hCaptcha, a popular captcha service, into various applications for enhanced security and user verification."
 authors = ["Vaibhav Dhiman <vaibhavsys@protonmail.com>"]
 license = "MIT"
@@ -27,7 +27,7 @@ build-backend = "poetry.core.masonry.api"
 
 [project]
 name = "hcaptcha"
-version = "0.1.1"
+version = "0.1.2"
 description = "A Python package for integrating hCaptcha, a popular captcha service, into various applications for enhanced security and user verification."
 readme = "README.md"
 authors = [{ name = "Vaibhav Dhiman", email = "vaibhavsys@protonmail.com" }]
