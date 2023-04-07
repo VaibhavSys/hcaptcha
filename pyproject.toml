@@ -1,0 +1,46 @@
+[tool.poetry]
+name = "hcaptcha"
+version = "1.0.0"
+description = "A Python package for integrating hCaptcha, a popular captcha service, into various applications for enhanced security and user verification."
+authors = ["Vaibhav Dhiman <vaibhavsys@protonmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/VaibhavSys/hcaptcha"
+repository = "https://github.com/VaibhavSys/hcaptcha"
+classifiers = [
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+keywords = ["captcha", "hcaptcha", "async", "aiohttp", "aiodns", "asyncio", "async", "user verification", "security", "enhanced security", "captcha service", "captcha integration"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiohttp = "^3.8.4"
+aiodns = "^3.0.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[project]
+name = "hcaptcha"
+version = "1.0.0"
+description = "A Python package for integrating hCaptcha, a popular captcha service, into various applications for enhanced security and user verification."
+readme = "README.md"
+authors = [{ name = "Vaibhav Dhiman", email = "vaibhavsys@protonmail.com" }]
+license = { text = "MIT" }
+classifiers = [
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "aiohttp",
+    "aiodns",
+]
+
+[project.urls]
+homepage = "https://github.com/VaibhavSys/hcaptcha"

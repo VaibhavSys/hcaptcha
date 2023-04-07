@@ -1,0 +1,13 @@
+sources_dir: docs/sources
+templates_dir: docs/templates
+repo: https://github.com/VaibhavSys/hcaptcha
+version: main
+
+pages:
+  - page: "api/hcaptcha.md"
+    source: "hcaptcha/hcaptcha.py"
+    classes:
+      - HCaptchaVerifier:
+        - verify
+        - __init__
+      - HCaptchaVerificationError
